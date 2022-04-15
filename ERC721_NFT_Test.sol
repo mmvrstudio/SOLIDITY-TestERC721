@@ -70,7 +70,7 @@ contract AlienOverlord is ERC721, ERC721Enumerable, Pausable, Ownable {
 
 /* IMPORTANT NOTES:
 
-    contract address: 0xd9145CCE52D386f254917e481eB44e9943F39138
+    contract address: 0xd9145CCE52D786f254917e481eB44e9943F39138
     mint price: 0.00033 eth
 
     // Users
@@ -78,10 +78,10 @@ contract AlienOverlord is ERC721, ERC721Enumerable, Pausable, Ownable {
         - deployed contract
         - can only call the `onlyOwner` modifier functions
 
-    address 2: 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
+    address 2: 0xAb8484F64d9C6d1EcF9b849Ae677dD3315835cd2
         - mint 1 NFT
 
-    address 3: 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
+    address 3: 0x4B20993Bc451177ec7E8f571ceCaE8A9e22C02da
         - address 2 will transfer NFT #1 to address 3 (recipient)
 
 */
