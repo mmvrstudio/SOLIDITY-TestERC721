@@ -1,7 +1,7 @@
 # NFT Test | ERC-721 Solidity
 - Select ERC721
-- Change Name and Symbol
-- Edit Base URI - for your tokens
+- Change the name and Symbol
+- Edit Base URI (for your own tokens)
 
 Code Sections:
   - 1. Property Variables
@@ -9,7 +9,7 @@ Code Sections:
   - 3. Pauseable Functions
   - 4. Minting Functions
 
-### Necessary Modifications
+### Required Modifications
 - Remove `onlyOwner` modifier from `safeMint`
 - Add in `MINT_PRICE` in ether. 
 - Add corresponding `require` statement in `safeMint()
